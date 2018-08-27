@@ -5,6 +5,12 @@
   "author": "pjb0811",
   "license": "MIT",
   "repository": "pjb0811/react-3d-carousels",
+  "keywords": [
+    "react",
+    "react-motion",
+    "3d",
+    "carousel"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -21,7 +27,10 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/react-motion": "^0.0.27",
+    "react-motion": "^0.5.2"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
